@@ -14,9 +14,9 @@ import egg.enums.Producto;
 
 public class Pedido {
     
-    private static long cantidadDePedidos;
+    private static int cantidadDePedidos;
 
-    private long numeroDePedido;
+    private int numeroDePedido;
     private String cliente;
     private List<Producto> listaDeProductos = new ArrayList<Producto>();
     private EstadoPedido elEstadoDelPedido;
@@ -33,10 +33,10 @@ public class Pedido {
         }
     }
     
-    public long getNumeroDePedido() {
+    public int getNumeroDePedido() {
         return numeroDePedido;
     }
-    public void setNumeroDePedido(long numeroDePedido) {
+    public void setNumeroDePedido(int numeroDePedido) {
         this.numeroDePedido = numeroDePedido;
     }
 
@@ -61,7 +61,7 @@ public class Pedido {
         this.elEstadoDelPedido = elEstadoDelPedido;
     }
     
-    public static long getCantidadDePedidos() {
+    public static int getCantidadDePedidos() {
         return cantidadDePedidos;
     }
 }

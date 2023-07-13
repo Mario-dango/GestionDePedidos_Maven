@@ -8,7 +8,6 @@ public enum Producto {
 
     private String marca;
     private String nombre;
-
     private Integer valor;
 
     private Producto(String elNombre, String laMarca, Integer loQueCuesta){
