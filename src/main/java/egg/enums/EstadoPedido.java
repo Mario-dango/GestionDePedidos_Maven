@@ -5,7 +5,7 @@ public enum EstadoPedido {
     PENDIENTE("Pendiente."),
     EN_PROCESO("En proceso."), 
     ENVIADO("Enviado."), 
-    ENTREGADO("Etregado.");
+    ENTREGADO("Entregado.");
 
     private String descripcion;
 
